@@ -1,21 +1,21 @@
 import React from 'react';
 import Aboutme from './components/pages/Aboutme';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 import Projects from './components/pages/Projects';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
-      <div className='flex-column justify-center align-center min-100-vh bg-success'>
-        <BrowserRouter>
+      <div className='flex-column justify-center align-center bg-success'>
+        <Navigation />
         <Routes> 
         <Route path="/" element={<Projects />} />
         <Route path="/Aboutme" element={<Aboutme />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Resume" element={<Resume />} />
         </Routes>
-        </BrowserRouter>
       </div>
   );
 }
