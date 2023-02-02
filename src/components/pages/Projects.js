@@ -33,20 +33,21 @@ function Projects() {
 
             <div className="card">
                 <img 
-                src="https://raw.githubusercontent.com/ddwk21/we-do/main/public/assets/homepage.JPG" 
+                src="https://user-images.githubusercontent.com/111463494/214950568-620ec783-cf76-449d-827a-f55f72ab9bef.png" 
                 className="card-img-top" 
                 alt=" "
                 style={projectCards} />
                     <div className="card-body">
                         <h5 className="card-title">Text Editor</h5>
                         <p className="card-text">A text editor app</p>
-                        <a href=" " className="btn btn-primary">Pull up the app</a>
+                        <a href="https://calm-brook-66511.herokuapp.com/" className="btn btn-primary">Pull up the app</a>
                     </div>
             </div>
 
         </>
     );
-}        
+} 
+
 
 export default Projects;
 
