@@ -44,6 +44,20 @@ function Projects() {
                     </div>
             </div>
 
+            <div className="card">
+                <img
+                    src="https://user-images.githubusercontent.com/111473151/220814116-9a002ecd-1d6b-4ac9-b2da-6491e7d43d18.jpg"
+                    className="card-img-top"
+                    alt=" "
+                    style={projectCards} />
+                <div className="card-body">
+                    <h5 className="card-title">Shoe-In</h5>
+                    <p className="card-text">An ecommerce shoe marketplace</p>
+                    <a href="https://shoe-in-app.herokuapp.com/" className="btn btn-primary">Pull up the app</a>
+                </div>
+            </div>
+
+
         </>
     );
 } 

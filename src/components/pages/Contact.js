@@ -21,15 +21,15 @@ function Contact() {
     return (
         <section>
             <form id='contact-form' onSubmit={handleSubmit}>
-                <div>
+                <div className='name-div'>
                     <label htmlFor='name'>Name: </label>
                     <input type='text' name='name' />
                 </div>
-                <div>
+                <div className='email-div'>
                     <label htmlFor='email'>Email address: </label>
                     <input type='email' name='email' />
                 </div>
-                <div>
+                <div className='button-div'>
                     <button type='submit'>Submit</button>
                 </div>
             </form>

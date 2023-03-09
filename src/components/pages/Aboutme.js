@@ -5,6 +5,7 @@ function Aboutme() {
         <section className="about-section">
             <div className="about-div">
                 <p>Jon is a student of the UW-Wisconsin system's fullstack developer bootcamp. 
+                   <br></br>
                    He has acquired skills in HTML/CSS, Javascript, Node.js, Express, SQL, Mongodb, REACT, and MERN stack. </p>
             </div>
         </section>

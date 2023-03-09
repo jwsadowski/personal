@@ -1,0 +1,46 @@
+p {
+    font-weight: light;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(168, 168, 168);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    background-image: linear-gradient(to right, rgb(65, 65, 129), grey);
+}
+
+.card-body {
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.card-title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: royalblue;
+    width: 1000px;
+}
+
+.about-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+

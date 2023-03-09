@@ -5,6 +5,7 @@ import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 import Projects from './components/pages/Projects';
 import Navigation from './components/Navigation';
+import './styles.css' 
 
 function App() {
   return (
