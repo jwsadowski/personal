@@ -1,44 +1,90 @@
-p {
-    font-weight: light;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(168, 168, 168);
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 50px;
 }
 
-.card {
+.home-title {
+    margin-top: 0px;
+    background-color: rgb(255, 0, 0);
+}
+
+.home-title-name {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: normal;
+    font-family: Geneva;
+}
+
+p {
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.card-img-top {
+    height: 540px;
+    width: 960px;
+    border-radius: 15px;
+}
+
+.card-deck {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    align-content: space-between;
-    background-image: linear-gradient(to right, rgb(65, 65, 129), grey);
 }
 
-.card-body {
-    border-width: 5px;
-    border-radius: 15px;
-    border-color: black;
+.card-text {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: slategray;
 }
 
 .card-title {
+    display: flex;
+    justify-content: center;
     font-size: 40px;
     font-weight: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.btn-btn-primary {
+    display: flex;
+    margin-left: 400px;
+    background-color: royalblue;
+    color: white;
+    width: 200px;
+    border-radius: 15px;
 }
 
 .about-section {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    margin-left: 575px;
     background-color: royalblue;
-    width: 1000px;
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
 }
 
 .about-div {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 
